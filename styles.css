@@ -40,10 +40,15 @@ img {
 }
 
 .topbar {
+  position: sticky;
+  top: 0;
+  z-index: 10;
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 12px 10px 20px;
+  background: rgba(244, 242, 238, 0.94);
+  backdrop-filter: blur(10px);
 }
 
 .brand {
