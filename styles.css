@@ -216,6 +216,21 @@ img {
     box-shadow 0.25s ease;
 }
 
+.profile-card.placeholder-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 420px;
+  background: linear-gradient(135deg, #e4ebff, #f4efe9);
+}
+
+.profile-card.placeholder-card span {
+  font-size: clamp(3rem, 8vw, 6rem);
+  font-weight: 800;
+  letter-spacing: 0.12em;
+  color: var(--accent);
+}
+
 .profile-card:hover {
   transform: translateY(-4px) scale(1.01);
   box-shadow: 0 26px 56px rgba(15, 23, 42, 0.16);
@@ -230,16 +245,6 @@ img {
   border-radius: 50%;
   background: rgba(255, 255, 255, 0.32);
   filter: blur(10px);
-}
-
-.profile-card img {
-  width: 100%;
-  height: auto;
-  aspect-ratio: 4 / 5;
-  max-height: 620px;
-  object-fit: cover;
-  object-position: center top;
-  border-radius: 26px;
 }
 
 .info-grid {
