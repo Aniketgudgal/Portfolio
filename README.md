@@ -1,15 +1,15 @@
 # Aniket Gudgal | Portfolio
 
-A clean, responsive portfolio website for Aniket Gudgal, showcasing Java Full Stack Developer experience, projects, technical skills, education, and contact details.
+A clean, responsive portfolio website for Aniket Gudgal, highlighting experience as a Java Full Stack Developer, projects, technical skills, education, and contact information.
 
 ## Live Preview
 
-Open the project locally in a browser by opening `index.html` directly or by serving the folder with a local web server.
+Preview the site locally by opening `index.html` in a browser, or serve the project folder with a local web server.
 
 ## Project Structure
 
-- `index.html` — portfolio content and structure
-- `styles.css` — styling, layout, and responsive behavior
+- `index.html` — portfolio structure and content
+- `styles.css` — layout, design, and responsive styling
 - `profile image.jpeg` — profile photo
 - `Aniket_Gudgal_Java_Full_Stack_Developer.pdf` — downloadable resume
 
@@ -17,7 +17,7 @@ Open the project locally in a browser by opening `index.html` directly or by ser
 
 ### Option 1: Open directly
 
-- Double-click `index.html` in the project folder
+- Double-click `index.html` in the project folder.
 
 ### Option 2: Use a local server
 
@@ -27,7 +27,7 @@ From the project folder, run:
 python -m http.server 8000
 ```
 
-Then open:
+Then open the site in your browser at:
 
 ```text
 http://localhost:8000
@@ -36,21 +36,23 @@ http://localhost:8000
 ## GitHub Pages Deployment
 
 1. Push the project to GitHub.
-2. Go to the repository on GitHub.
-3. Open `Settings`.
+2. Open your repository on GitHub.
+3. Go to `Settings`.
 4. Click `Pages`.
-5. Under `Source`, choose `Deploy from a branch`.
-6. Select `main` and `/root`.
-7. Save.
-8. GitHub will provide a live URL like:
+5. Under `Source`, select `Deploy from a branch`.
+6. Choose the `main` branch and the `/ (root)` folder.
+7. Save the settings.
+8. GitHub will generate a live URL similar to:
 
 ```text
-https://your-username.github.io/your-repository-name/
+https://aniketgudgal.github.io/Portfolio/
 ```
+
+If your default branch is `master`, use that branch name instead of `main`.
 
 ## Portfolio Highlights
 
-- Responsive layout for desktop, tablet, and mobile
+- Responsive layout for desktop, tablet, and mobile devices
 - Resume-style landing page
 - Downloadable PDF resume button
 - Project, experience, and education sections
