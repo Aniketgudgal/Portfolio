@@ -10,8 +10,12 @@ Preview the site locally by opening `index.html` in a browser, or serve the proj
 
 - `index.html` — portfolio structure and content
 - `styles.css` — layout, design, and responsive styling
-- `profile image.jpeg` — profile photo
-- `Aniket_Gudgal_Java_Full_Stack_Developer.pdf` — downloadable resume
+- `profile image.jpeg` — profile photo (included on the `gh-pages` branch)
+- `Aniket_Gudgal_Java_Full_Stack_Developer.pdf` — downloadable resume (included on the `gh-pages` branch)
+
+The `main` branch intentionally does not contain the profile image or resume. The `gh-pages` branch retains both assets for the deployed portfolio.
+
+For a local preview that includes the profile image and downloadable resume, use the `gh-pages` branch.
 
 ## Run Locally
 
@@ -35,20 +39,22 @@ http://localhost:8000
 
 ## GitHub Pages Deployment
 
-1. Push the project to GitHub.
-2. Open your repository on GitHub.
-3. Go to `Settings`.
-4. Click `Pages`.
-5. Under `Source`, select `Deploy from a branch`.
-6. Choose the `main` branch and the `/ (root)` folder.
-7. Save the settings.
-8. GitHub will generate a live URL similar to:
+Configure GitHub Pages to deploy from the `gh-pages` branch so that the profile image and resume remain available on the live site.
+
+To configure GitHub Pages:
+
+1. Open the repository on GitHub.
+2. Go to `Settings` → `Pages`.
+3. Under `Build and deployment`, select `Deploy from a branch`.
+4. Choose the `gh-pages` branch and the `/ (root)` folder.
+5. Save the settings.
+6. GitHub Pages will publish the site at:
 
 ```text
 https://aniketgudgal.github.io/Portfolio/
 ```
 
-If your default branch is `master`, use that branch name instead of `main`.
+Changes to the live portfolio should be pushed to `gh-pages`.
 
 ## Portfolio Highlights
 
