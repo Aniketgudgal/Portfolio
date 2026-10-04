@@ -10,10 +10,8 @@ Preview the site locally by opening `index.html` in a browser, or serve the proj
 
 - `index.html` — portfolio structure and content
 - `styles.css` — layout, design, and responsive styling
-- `profile image.jpeg` — profile photo (included on the `gh-pages` branch)
-- `Aniket_Gudgal_Java_Full_Stack_Developer.pdf` — downloadable resume (included on the `gh-pages` branch)
 
-The `main` branch intentionally does not contain the profile image or resume. The `gh-pages` branch retains both assets for the deployed portfolio.
+The profile photo and downloadable resume are maintained on the `gh-pages` branch for the deployed portfolio.
 
 For a local preview that includes the profile image and downloadable resume, use the `gh-pages` branch.
 
